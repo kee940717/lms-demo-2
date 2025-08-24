@@ -37,7 +37,7 @@ const globalLeaderboard = [
   {
     rank: 5,
     name: "Dr. Lisa Wang",
-    specialty: "Bweast Imaging",
+    specialty: "Breast Imaging",
     points: 20980,
     avatar: "/placeholder.svg?height=40&width=40",
   },

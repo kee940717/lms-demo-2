@@ -10,7 +10,7 @@ import { Button } from "@/components/ui/button"
 import { ScrollArea } from "@/components/ui/scroll-area"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import { ModeToggle } from "@/components/mode-toggle"
-import { BarChart3, BookOpen, Eye, Home, Mail, Menu, Settings, Trophy, Users, Award, Bell, Router } from "lucide-react"
+import { BarChart3, BookOpen, Eye, Home, Mail, Menu, Settings, Trophy, Users, Award, Bell, Router, FileScan } from "lucide-react"
 import { UserDropDown } from "./user_dropdown"
 import { LoadingSkeleton } from "./loading_notification/loading-skeleton"
 
@@ -22,6 +22,7 @@ const navigation = [
   { name: "Achievements", href: "/achievements", icon: Award },
   { name: "Faculty", href: "/faculty", icon: Users },
   { name: "Admin", href: "/admin", icon: Users },
+  { name: "Dicom Scanner", href: "/dicom-scanner", icon: FileScan },
 //   { name: "Settings", href: "/settings", icon: Settings },
 ]
 

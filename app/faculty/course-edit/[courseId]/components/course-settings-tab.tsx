@@ -46,11 +46,12 @@ export function CourseSettingsTab({ course, onUpdate }: CourseSettingsTabProps) 
 
             <div className="space-y-2">
               <Label htmlFor="currency">Currency</Label>
-              <Select defaultValue="USD">
+              <Select defaultValue="SGD">
                 <SelectTrigger>
                   <SelectValue />
                 </SelectTrigger>
                 <SelectContent>
+                  <SelectItem value="SGD">SGD - Singapore Dollar</SelectItem>
                   <SelectItem value="USD">USD - US Dollar</SelectItem>
                   <SelectItem value="EUR">EUR - Euro</SelectItem>
                   <SelectItem value="GBP">GBP - British Pound</SelectItem>
